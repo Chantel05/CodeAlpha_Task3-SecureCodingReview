@@ -1,20 +1,37 @@
 # CodeAlpha_Task3-SecureCodingReview
 
-# Task 3 – Secure Coding Review
+# 🔒 Task 3 – Secure Coding Review
 
-## Overview
-This task demonstrates a secure coding review of a Python login system.  
-We identify vulnerabilities in the insecure version and provide a secure implementation following OWASP standards.
+## 📌 Overview
+This task demonstrates a **secure coding review** of a Python login system.  
+We identify vulnerabilities in the insecure version and provide a **secure implementation** aligned with OWASP best practices.
 
-## Deliverables
-- `insecure_login.py` → Original vulnerable code
-- `secure_login.py` → Secure, improved version
-- `SecureCodingReport.pdf` → Full professional audit report
+## 🛠️ Features
+- Review of insecure login system
+- Identification of vulnerabilities:
+  - Hardcoded credentials
+  - Plaintext password comparison
+  - Weak authentication controls
+- Recommendations for secure coding
+- Improved secure login system:
+  - Password hashing with SHA-256
+  - Environment variable for secret storage
+  - Defensive programming practices
+- Full professional report (`SecureCodingReport.pdf`)
 
-## How to Run
+## 📂 Project Structure
+
+
+## ▶️ How to Run Secure Code
 1. Set environment variable for admin password:
-   - On Linux/Mac: `export ADMIN_PASSWORD="StrongPassword123"`
-   - On Windows (PowerShell): `$env:ADMIN_PASSWORD="StrongPassword123"`
+   - Linux/Mac:
+     ```bash
+     export ADMIN_PASSWORD="StrongPassword123"
+     ```
+   - Windows PowerShell:
+     ```powershell
+     $env:ADMIN_PASSWORD="StrongPassword123"
+     ```
 2. Run the secure script:
    ```bash
    python secure_login.py
