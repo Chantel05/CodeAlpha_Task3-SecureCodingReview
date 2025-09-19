@@ -34,4 +34,4 @@ We identify vulnerabilities in the insecure version and provide a **secure imple
      ```
 2. Run the secure script:
    ```bash
-   python secure_login.py
+   python secure_logincode.py
